@@ -72,3 +72,15 @@ div {
 .third {
     min-width: 300px;
 }
+.gray-anchor {
+    color: rgba(3, 3, 3, 0.4);
+    font-style: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+}
+.gray-anchor:hover {
+    color: black;
+    text-decoration: none;
+}
