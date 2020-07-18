@@ -1,7 +1,58 @@
 .container {
     background-color: lightgreen;
+    max-width: 1250px;
 }
 
 .red {
     background-color: #f72210;
+    color: white;
+}
+
+.white {
+    background-color: white;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    list-style: none;
+    flex-wrap: nowrap;
+}
+.nav-link {
+    padding: 0.1vw;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: "Roboto Condensed",sans-serif;
+}
+
+.nav-link a {
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    padding-right: 10px;
+}
+.search {
+    border-style: none;
+}
+
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: white;
+    width: 100px;
+}
+
+.nav-link a {
+    color: black;
+
+}
+
+.nav-link a:hover {
+    color:  #f72210;
 }
