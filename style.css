@@ -10,6 +10,7 @@
 
 .white {
     background-color: white;
+    height: 40px;
 }
 .nav {
     display: flex;
@@ -17,6 +18,7 @@
     width: 100%;
     list-style: none;
     flex-wrap: nowrap;
+    padding-top: 10px;
 }
 .nav-link {
     padding: 0.1vw;
@@ -33,6 +35,9 @@
     border-bottom-width: 0px;
     border-left-width: 0px;
     border-top-width: 0px;
+    color: black;
+    text-align: center;
+    padding: 5px;
     padding-right: 10px;
 }
 .search {
@@ -48,11 +53,22 @@ input {
     width: 100px;
 }
 
-.nav-link a {
-    color: black;
-
-}
-
 .nav-link a:hover {
     color:  #f72210;
+}
+
+div {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.first {
+    min-width: 300px;
+}
+.second {
+    min-width: 450px;
+}
+.third {
+    min-width: 300px;
 }
